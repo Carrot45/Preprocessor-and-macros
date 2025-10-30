@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Preprocessor-and-macros.vcxproj" Id="e69a2f0d-b083-4e59-a95f-20fd5ac7fe38" />
+</Solution>

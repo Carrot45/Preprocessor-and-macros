@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="SUB macros.vcxproj" Id="8bfb71f1-13ba-430c-b2f1-3ab51e89b0e1" />
+</Solution>
