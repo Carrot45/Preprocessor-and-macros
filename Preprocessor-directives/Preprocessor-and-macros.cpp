@@ -4,6 +4,8 @@
 
 #define MODE 1
 
+int add(int variable1, int variable2);
+
 int main(int argc, char** argv)
 {
 	SetConsoleCP(1251);
@@ -17,9 +19,7 @@ int main(int argc, char** argv)
 	std::cout << "Работаю в режиме тренировки" << std::endl;
 
 #elif MODE == 1
-
-	int add(int variable1, int variable2);
-
+	
 	std::cout << "Работаю в боевом режиме" << std::endl;
 	int variable1{};
 	int variable2{};
@@ -29,14 +29,18 @@ int main(int argc, char** argv)
 	std::cin >> variable2;
 	std::cout << "Результат сложения: " << add(variable1, variable2);
 
+	
 #else
 	std::cout << "Неизвестный режим. Завершение работы." << std::endl;
 #endif
 	return EXIT_SUCCESS;
 }
+#if MODE == 1
 int add(int variable1, int variable2)
 {
 	return (variable1 + variable2);
-};
+}
+#endif
+
 
 
